@@ -1,5 +1,4 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFrameworks>net8.0</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
@@ -24,14 +23,12 @@
     <Platforms>AnyCPU;x64;Arm64</Platforms>
     <PackageId>LLamaSharp.kernel-memory</PackageId>
     <Configurations>Debug;Release;GPU</Configurations>
+    <ReferencePath />
   </PropertyGroup>
-
   <ItemGroup>
     <PackageReference Include="Microsoft.KernelMemory.Abstractions" Version="0.98.250508.3" />
   </ItemGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\LLama\LLamaSharp.csproj" />
   </ItemGroup>
-
 </Project>

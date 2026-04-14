@@ -5,16 +5,14 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <InvariantGlobalization>true</InvariantGlobalization>
+    <ReferencePath />
   </PropertyGroup>
-
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Validation" Version="17.13.22" />
   </ItemGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\LLama\LLamaSharp.csproj" />
   </ItemGroup>
-
   <ItemGroup>
     <Content Update="Properties\launchSettings.json">
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
